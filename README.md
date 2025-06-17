@@ -5,7 +5,7 @@ ESTUDOS AZ-900.
 A computação em nuvem é o fornecimento de serviços de computação pela internet, habilitando inovações mais rápidas, recursos flexíveis e economias de escala
 Permite a criação de forma rápida de recursos e serviços, você paga apenas o que usa, e abrange diversas ferramentas (Armazenamento, aplicações, computação, rede, etc...)
 
-#MODELOS DE NUVEM
+# MODELOS DE NUVEM
 ### Nuvem-Privada, 
 ambiente 100% On premise um ambiente totalmente voltado para empresa, não divide com ninguém 
 As organizações criam um ambiente em nuvem em seu datacenter.
