@@ -27,7 +27,7 @@ Combina nuvens públicas e provadas para permitir que os aplicativos sejam execu
 	
 
 
-#COMPARAÇÂO DE MODELOS DE NUVEM
+# COMPARAÇÂO DE MODELOS DE NUVEM
 ### Nuvem-Privada,
 Nenhuma despesa de capital para escalar verticalmente.
 Os aplicativos podem ser provisionados e desprovisionados rapidamente.
