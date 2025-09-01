@@ -59,14 +59,14 @@ Os provedores de serviços em nuvem operam em um modelo baseado no consumo, o qu
 •	A cobrança é feita com base no seu uso real.
 
 #BENEFÍCIOS DA NUVEM AZURE
-##ALTA DISPONIBILIDADE 
+###ALTA DISPONIBILIDADE 
 •	Recursos disponíveis sempre que necessário 
 •	Ligado a questão de SLA (Ao contratar um recurso, caso ele não seja fornecido corretamente, a Microsoft “Abraça” esse problema.
 •	Caso o serviço não seja entregue dentro do prazo contratado, a Microsoft possui um tipo de ressarcimento em créditos para melhor experiencia do usuário.
 •	Mesmo possuído todo o suporte da Microsoft e uma alta disponibilidade, os serviços em nuvem está sujeito a ficar indisponível. Um serviço em nuvem pode ficar degradado principalmente por rede congestionada, sobrecarga de recursos, falha s em updates/manutenções, ataques de segurança ou dependência de terceiros.
 •	A alta disponibilidade se concentra em garantir a disponibilidade máxima, independentemente de interrupções ou eventos que possam ocorrer.
 
-##ESCALABILIDADE
+###ESCALABILIDADE
 •	A escalabilidade refere-se à capacidade de ajustar recursos para entender à demanda. (exemplo: em uma empresa diversos colaboradores realizam a instalação de filmes para assistir durante seus intervalos, o servidor vai continuar dando conta pelo processamento, sistema operacional e diversos outros recursos, porém o disco de armazenamento acaba ficando cheio, para escalonar basta adicionar um disco. Ou seja, é possível adicionar somente um dos recursos conforme sua necessidade.
 •	A capacidade de escalar significa que você poderá adicionar mais recursos para lidar melhor com o aumento da demanda.
 •	O outro benefício da escalabilidade é que você não está pagando além do necessário pelos serviços.
@@ -75,28 +75,28 @@ Os provedores de serviços em nuvem operam em um modelo baseado no consumo, o qu
 •	Com a escala vertical, se você estivesse desenvolvendo um aplicativo e precisasse de mais capacidade de processamento, poderia escalar verticalmente para adicionar mais CPUs ou RAM à máquina virtual.
 
 
-##ELASTICIDADE
+###ELASTICIDADE
 •	Com a elasticidade, se você experimentasse um salto repentino acentuado na demanda, seus recursos implantados poderiam ser expandidos (Automaticamente ou manualmente). (como exemplo a black Friday, antigamente diversos sites ficavam fora, pois, a demanda durante esse período era muito maior que o normal, ou também diversas empresas se preparavam gastando muito dinheiro em servidores adicionais, mas quando chegava a época nem eram tão requisitadas assim.
 •	Por exemplo, você pode adicionar máquinas virtuais ou contêiner por meio da expansão. (Você pode configurar por exemplo, caso meu servidor atinja 80% da capacidade de armazenamento, eu quero que um novo servidor seja adicionado, caso a média dos dois servidores estejam em 80% adicionar mais um.
 •	Da mesma forma, se houver uma queda significativa na demanda, os recursos implantados poderão ser reduzidos horizontalmente (podendo também impor um limite de quantos eu desejo, e pode ser configurado para remover servidores, caso a média de ambos estejam em 35% desejo remover um servidor, dessa forma sempre estará com recursos disponíveis de acordo com a necessidade)
-##CONFIABILIDADE
+###CONFIABILIDADE
 •	Devido ao design descentralizado, a nuvem naturalmente dá suporte a uma infraestrutura confiável e resiliente.
 •	Com um design descentralizado, a nuvem permite que você tenha recursos implantados em várias regiões do mundo.
 •	Existe a resiliência de ter um sistema que se recupera de falhas e continua funcionando.
 •	Com essa escala global, mesmo que ocorra um evento catastrófico em uma região, as outras regiões ainda estarão em funcionamento.
-##PREVISIBILIDADE
+###PREVISIBILIDADE
 •	A previsibilidade na nuvem permite que você avance com confiança, seja no desempenho ou no custo. Ambas são influenciadas pelo Microsoft Azure Well-Architected Framework
 
 
 
 
-##SEGURANÇA
+###SEGURANÇA
 •	A nuvem oferece ferramentas de segurança que atendem às necessidades dos clientes, mas, é importante lembrar que a implementação de muitas delas devem ser realizadas pelo cliente.
 •	Se você quiser o controle máximo da segurança, a infraestrutura como serviços fornecerá recursos físicos, mas permitirá que você gerencie os sistemas operacionais e o software instalado, incluindo aplicação de patches e manutenção
 •	Quando falamos de segurança estamos associando o modelo que o nosso provider vai oferecer, quem faz o que etc.
 •	Se você quiser que a aplicação de patches e a manutenção sejam tratadas automaticamente, as implantações de plataforma como serviço ou software como serviço podem ser as melhores estratégias de nuvem para você
 •	Responsabilidade do Provider é oferecer recursos e serviços para atender a minha demanda, e a minha responsabilidade é aplicá-los.
-##GOVERNANÇA
+###GOVERNANÇA
 •	A auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja fora da conformidade com seus padrões corporativos e fornece estratégias de mitigação. (Mitigação = Resolução de problemas)
 •	Serve também para atribuir padrões de gestão dentro da nuvem (Como exemplo, existe algumas regiões do mundo no qual eu não quero que crie recursos pois não faz sentido para mim, então eu realizo o bloqueio desta ação independente da pessoa ou do nível de acesso. para manter a organização da minha empresa).
 •	Esses padrões ou regras podem ser definidos pela própria empresa ou também para quem ela responde, por exemplo a indústria farmacêutica ou financeira exige alguns padrões e protocolos de segurança, outro exemplo é na hora de prestar um serviço a uma prefeitura ou governo, que também tem suas normas e exigências.
@@ -105,7 +105,7 @@ Os provedores de serviços em nuvem operam em um modelo baseado no consumo, o qu
 
 
 
-##GERENCIABILIDADE
+###GERENCIABILIDADE
 •	Um dos principais benefícios da computação em nuvem são as opções de capacidade de gerenciamento. Há dois tipos de capacidade de gerenciamento para computação em nuvem e ambos trazem excelentes benefícios 
 •	Escalar automaticamente a implantação de recursos com base na necessidade.
 Ao criar recursos é possível utilizar o próprio portal ou até mesmo comandos, vai de acordo com a preferência do cliente, porém temos alguns exemplos que vale mais a pena a criação de ambientes ou serviços por meio de comandos, quando o ambiente é muito complexo e necessita de muitas especificações vale muito mais a pena através de comandos, seja pelo tempo economizado e para evitar erros humanos.
