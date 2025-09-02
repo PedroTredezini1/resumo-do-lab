@@ -116,3 +116,49 @@ O gerenciamento na nuvem diz respeito à maneira de gerenciar seu ambiente de nu
 •	Usando APIs.
 •	Usando PowerShell.
 
+
+# RESUMO DO MÓDULO 1
+## Computação em Nuvem
+A computação em nuvem é o fornecimento de serviços de computação pela internet. Um dos principais benefícios desse modelo é a flexibilidade — tanto de recursos, quanto de serviços e no aspecto financeiro.
+Isso significa que você pode aumentar ou diminuir a capacidade de hardware de acordo com a necessidade, de forma manual ou automática, configurando previamente essas funções. Além disso, é possível contratar serviços por um período determinado, pagando apenas pelo que for realmente utilizado.
+## Modelos de Nuvem
+Existem três modelos principais de nuvem:
+1.	Nuvem Privada:
+o	A organização cria e gerencia seu próprio datacenter.
+o	O ambiente é exclusivo, com maior controle e segurança.
+2.	Nuvem Pública:
+o	O oposto da nuvem privada.
+o	Grandes provedores criam datacenters espalhados pelo mundo e oferecem serviços para qualquer cliente que queira (e possa) pagar.
+o	É possível criar ambientes, armazenar e processar dados, além de usar diversos serviços pela internet.
+3.	Nuvem Híbrida:
+o	Combina o melhor dos dois mundos (privada e pública).
+o	As duas nuvens se comunicam entre si e os aplicativos/serviços são executados no local mais adequado conforme a necessidade.
+## Modelos de Custos
+•	CapEx (Despesas de Capital)
+o	Gasto inicial com infraestrutura física.
+o	Esses ativos se desvalorizam com o tempo.
+•	OpEx (Despesas Operacionais)
+o	Pagamento conforme o uso de produtos e serviços.
+o	Cobrança imediata, baseada no consumo.
+Nos provedores de nuvem, o modelo é baseado no consumo. Ou seja, você paga apenas pelo que realmente utilizou, o que melhora a previsão de custos e torna a cobrança mais justa.
+## Benefícios da Nuvem Azure
+•	Alta disponibilidade
+•	Escalabilidade
+•	Elasticidade
+•	Confiabilidade
+•	Previsibilidade
+•	Segurança
+•	Governança
+•	Gerenciabilidade
+## Tipos de Serviços em Nuvem
+1.	IaaS (Infraestrutura como Serviço)
+o	Aluguel de servidores, máquinas virtuais, armazenamento, redes e sistemas operacionais.
+o	Modelo de pagamento conforme o uso.
+2.	PaaS (Plataforma como Serviço)
+o	Ambiente para criação, teste e implantação de aplicativos.
+o	O foco é no desenvolvimento, sem se preocupar com a infraestrutura subjacente.
+3.	SaaS (Software como Serviço)
+o	Uso de aplicativos em nuvem diretamente pela internet.
+o	Exemplos: Microsoft 365, e-mail e calendários.
+## Responsabilidade do Usuário e do Provedor
+Cada modelo de serviço (IaaS, PaaS e SaaS) exige níveis diferentes de responsabilidade tanto do usuário quanto do provedor. Quanto mais completo o serviço, menos o usuário precisa gerenciar diretamente.
